@@ -40,11 +40,16 @@ YOU DO
 """
 # assign 1 to `x`
 # assign 2 to `y`
+x, y = 1, 2
 
 # Create two lists called `x_list` and `y_list`
 # make `x_list` contain 10 instances of `x`
 # make `y_list` contain 10 instances of `y`
+x_list = [x] * 10
+y_list = [y] * 10
 
 # create a list called `combined` that
 # contains 10 `x`s and 10 `y`s by concatenating
 # `x_list` and `y_list`
+combined = x_list + y_list
+print(combined)
